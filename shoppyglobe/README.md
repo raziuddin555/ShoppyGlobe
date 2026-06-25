@@ -2,13 +2,16 @@ ShoppyGlobe - E-commerce Application
 A responsive e-commerce web application built using React + Vite.
 This project was created as part of the Internshala React Project Assignment.
 
+
+
 GitHub Repository
 Repo Link:
-https://github.com/Saad-Shams-dev/shoppyglobe-ecommerce.git
+https://github.com/raziuddin555/ShoppyGlobe
 
-Project Overview
+
+
+Project Overview:
 ShoppyGlobe is a basic e-commerce application where users can:
-
 Browse products
 Search products
 View product details
@@ -17,14 +20,19 @@ Update quantities
 Complete checkout process
 The application uses Redux Toolkit for state management and React Router for navigation.
 
-Tech Stack
+
+
+Tech Stack:
 React 18
 Vite
 Redux Toolkit
 React Redux
 React Router DOM
 CSS
-Features
+
+
+
+Features:
 Product listing from API
 Dynamic product detail pages
 Shopping cart functionality
@@ -35,7 +43,11 @@ Search functionality using Redux state
 Lazy loading using React.lazy and Suspense
 Responsive UI
 404 Not Found page
-Project Structure
+
+
+
+Project Structure:
+
 src/
 ├── components/
 │   ├── Header.jsx
@@ -55,41 +67,52 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
-Routing
+
+
+
+Routing:
 The application uses createBrowserRouter for routing.
 
 Routes included:
-
 / → Home Page
 /product/:id → Product Detail Page
 /cart → Cart Page
 /checkout → Checkout Page
 * → 404 Not Found Page
-Redux State Management
-Redux Toolkit is used to manage:
 
+
+
+Redux State Management:
+Redux Toolkit is used to manage:
 Cart items
 Product quantities
 Search state
-Files:
 
+Files:
 store.js
 cartSlice.js
 searchSlice.js
-Custom Hook
+
+
+
+Custom Hook:
 A custom hook named:
 
 useFetchProducts.js
 is used to fetch product data from the API using useEffect.
 
-API Used
+
+
+API Used:
 Product List API:
 https://dummyjson.com/products
 
 Product Detail API:
 https://dummyjson.com/products/:id
 
-How to Run the Project
+
+
+How to Run the Project:
 1. Install Dependencies
 npm install
 
@@ -99,15 +122,23 @@ npm run dev
 3. Build for Production
 npm run build
 
-Performance Optimization
+
+
+Performance Optimization:
 React.lazy used for code splitting
 Suspense used for fallback loading
 Lazy loading implemented for components
-Responsive Design
+
+
+
+Responsive Design:
 The application is fully responsive and works on:
 
 Desktop
 Tablet
 Mobile devices
-Author
-Saad Shams
+
+
+
+Author:
+Mohd Raziuddin
